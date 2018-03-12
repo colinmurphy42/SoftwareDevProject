@@ -1,0 +1,18 @@
+Functional
+Schedule adjustments and cancellations
+Announcements of changes (can opt in via Google notifications)
+Administrative functions - changes to locations
+Authentication for users
+Authorization levels- only CAs and TAs can make changes
+External Interfaces- connected to Google accounts (possibly)
+Legal - policy reminders on the Honor Code and Proper Conduct
+
+NonFunctional
+Performance – instant response time
+Scalability- can adapt to other campuses
+Capacity- can accommodate any number of CAs/TAs
+Availability- relies on school and Google servers
+Reliability- highly reliable if utilized by CAs/TAs
+Security- login credentials required
+Usability- anyone with internet access can use it
+Interoperability- compatible with school-assigned Google accounts
