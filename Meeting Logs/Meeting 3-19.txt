@@ -1,0 +1,15 @@
+Finalized the ER diagram in LucidChart, discussing what tables will work and if we need to add/drop anything
+
+Talked about Roster table and how it facilitates the many to many relationship of students to classes
+
+Fixed TA/CA Schedule Table so that each entry will have a unique ID
+
+Talked about what to do about class schedule and recitations
+
+Found a bunch of class data to parse in the future
+
+
+Divied up who is coding what table
+Colin - TACA Schedule, TACA, Student
+Roman - Class, Roster
+Zander - Student Schedule, Teacher
