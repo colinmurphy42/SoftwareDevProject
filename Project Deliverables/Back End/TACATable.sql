@@ -1,0 +1,8 @@
+CREATE TABLE TACA(
+ AssistantID INT(9) NOT NULL,
+ LastName CHAR(20) NOT NULL ,
+ FirstName CHAR(20) NOT NULL,
+ Email CHAR(30) NULL,
+ ClassID INT(7) NULL,
+ PRIMARY KEY (AssistantID)
+) DEFAULT CHARSET = utf8;
