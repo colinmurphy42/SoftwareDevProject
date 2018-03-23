@@ -6,7 +6,7 @@ CSS for both login and signup pages. Will be updated if people think that the lo
 */
 
 body {
-    padding-top: 50px;
+    padding-top: 70px;
     background-color: dimgray;
 }
 
@@ -38,4 +38,17 @@ body {
 
 .rowBottom{
     padding-top: 50px;
+}
+
+.form-check:hover{
+    background-color: goldenrod;
+}
+
+div#banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    padding: 50px;
 }
