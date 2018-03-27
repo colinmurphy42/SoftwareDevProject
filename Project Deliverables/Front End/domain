@@ -3,7 +3,14 @@ https://github.com/TACAlocator/SoftwareDevProject/blob/master/index.md
 
 
 Google APIs info:
-API Key:  AIzaSyDAEgfT7dY_MCKFoWnq8le3kFBCvoUuIBY
+
+credentials:
+Client ID	
+145543688079-a7q0aeegm2b3784n5m5s5vjfejalk3l3.apps.googleusercontent.com
+
+
+Your API key:
+AIzaSyBaYy9-uUZyjonVefgeSb3zk_tXDQ8DVqI
 Use this key in your application by passing it with the key=API_KEY parameter.
 
 
