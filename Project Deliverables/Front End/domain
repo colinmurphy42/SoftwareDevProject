@@ -14,9 +14,17 @@ AIzaSyBaYy9-uUZyjonVefgeSb3zk_tXDQ8DVqI
 Use this key in your application by passing it with the key=API_KEY parameter.
 
 
-
+key restrictions:
+Name: API Key 1
+For: http referrers (web sites)
+Accepts requests from these HTTP referrers (web sites):  *.colorado.edu/*
 
 
 
 using this to create site with API login using Google templates to connect users with maps/calendars
 it can get changed letter if need be, just needed a web address to create front page
+
+
+
+
+
