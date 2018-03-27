@@ -1,5 +1,11 @@
-https://github.com/TACAlocator/SoftwareDevProject/blob/master/index.md
+use this website:
+https://www.colorado.edu/p1229c00e950/
 
+once we are done making the app it will go live and we will haev a site with coloro.edu/TACAlocator
+(or something like that)
+
+everyone should have received permission to edit from CU 7 days ago, if not contact:
+joanna.bertrand@colorado.edu
 
 
 Google APIs info:
@@ -14,16 +20,24 @@ AIzaSyBaYy9-uUZyjonVefgeSb3zk_tXDQ8DVqI
 Use this key in your application by passing it with the key=API_KEY parameter.
 
 
-key restrictions:
+Application restrictions:
 Name: API Key 1
 For: http referrers (web sites)
 Accepts requests from these HTTP referrers (web sites):  *.colorado.edu/*
 
 
 
+
+
 using this to create site with API login using Google templates to connect users with maps/calendars
 it can get changed letter if need be, just needed a web address to create front page
 
+
+attempted to use 
+GitHub:  https://github.com/TACAlocator/SoftwareDevProject/blob/master/index.md   --DID NOT allow for API verification, ask TA for help
+Google:  http://taca-locator-app.business.site/
+
+but they don't work for different reasons
 
 
 
