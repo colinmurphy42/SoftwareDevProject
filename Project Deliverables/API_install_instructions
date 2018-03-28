@@ -3,3 +3,6 @@ https://developers.google.com/gmail/api/quickstart/nodejs
 ** start with step 2 because you can use the secret file I uploaded (I think)
 
 I got it to work in my VM so should be fine
+
+how to run maps queries in googlemaps:
+https://www.npmjs.com/package/googlemaps
