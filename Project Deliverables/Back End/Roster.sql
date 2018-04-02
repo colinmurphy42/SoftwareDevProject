@@ -1,0 +1,9 @@
+CREATE TABLE Roster (
+	StudentID INT(9) NOT NULL,
+	ClassID INT(7) NOT NULL,
+	PRIMARY KEY (StudentID, ClassID),
+	FOREIGN KEY (StudentID)
+		REFERENCES Student(StudentID),
+	FOREIGN KEY (ClassID)
+		REFERENCES Class(StudentID)
+) DEFAULT CHARSET = utf8;

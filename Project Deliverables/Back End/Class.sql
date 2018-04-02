@@ -1,0 +1,15 @@
+CREATE TABLE Class (
+	ClassID INT(7) NOT NULL,
+	TeacherID INT(9) NOT NULL,
+	LastName CHAR(20) NOT NULL,
+	FirstName CHAR(20) NOT NULL,
+	Department INT(20) NOT NULL,
+	DayOfWeek CHAR(10) NOT NULL,
+	FromTime TIME NOT NULL,
+	ToTime TIME NOT NULL,
+	Building CHAR(20) NOT NULL,
+	Room INT(5) NOT NULL,
+	PRIMARY KEY (ClassID),
+	FOREIGN KEY (TeacherID)
+		REFERENCES Teacher(TeacherID)
+ ) DEFAULT CHARSET = utf8;

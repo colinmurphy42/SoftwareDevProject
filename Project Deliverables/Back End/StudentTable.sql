@@ -5,5 +5,5 @@ CREATE TABLE Students (
  FirstName CHAR( 20 ) NOT NULL,
  Email CHAR( 50 ) NOT NULL ,
  PASSWORD CHAR( 30 ) NOT NULL ,
- PRIMARY KEY (StudentID) ,
+ PRIMARY KEY (StudentID)
 ) DEFAULT CHARSET = utf8;
