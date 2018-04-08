@@ -3,7 +3,7 @@ CREATE DATABASE project;
 USE project;
 
 CREATE TABLE Student (
-	StudentID 	INT(9) 	NOT NULL,
+	StudentID 	INT(9) 		NOT NULL,
 	LastName 	CHAR(20) 	NOT NULL,
 	FirstName 	CHAR(20) 	NOT NULL,
 	Email 		CHAR(20) 	NOT NULL,
@@ -75,7 +75,7 @@ CREATE TABLE TACASchedule (
 );
 
 CREATE TABLE Roster (
-	StudentID 	INT(5) 		NOT NULL,
+	StudentID 	INT(9) 		NOT NULL,
 	ClassID 	INT(7) 		NOT NULL,
     
 	PRIMARY KEY (StudentID, ClassID),
@@ -84,5 +84,5 @@ CREATE TABLE Roster (
 		REFERENCES Student(StudentID),
         
 	FOREIGN KEY (ClassID)
-		REFERENCES Class(StudentID)
+		REFERENCES Class(ClassID)
 );
