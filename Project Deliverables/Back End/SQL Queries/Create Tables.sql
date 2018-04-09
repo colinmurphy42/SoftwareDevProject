@@ -6,7 +6,7 @@ CREATE TABLE Student (
 	StudentID 	INT(9) 		NOT NULL,
 	LastName 	CHAR(20) 	NOT NULL,
 	FirstName 	CHAR(20) 	NOT NULL,
-	Email 		CHAR(20) 	NOT NULL,
+	Email 		CHAR(40) 	NOT NULL,
 	Passwrd 	CHAR(10) 	NOT NULL,
     
 	PRIMARY KEY (StudentID)
@@ -24,7 +24,7 @@ CREATE TABLE TACA (
 	AssistantID INT(9) 		NOT NULL,
 	LastName 	CHAR(20)	NOT NULL,
 	FirstName 	CHAR(20) 	NOT NULL,
-	Email 		CHAR(20) 	NULL,
+	Email 		CHAR(40) 	NULL,
     
 	PRIMARY KEY (AssistantID)
 );
