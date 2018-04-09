@@ -14,7 +14,7 @@ CREATE TABLE Student (
 
 insert into Student (StudentID, LastName, FirstName, Email, Passwrd) values
 (123456789, 'Louie', 'Alexander', 'allo1877@colorado.edu', 'abc123'),
-(987654321, 'Fisher', 'Connor', 'jofi8721@colorado.edu', '8abij'),
+(987654321, 'Fisheer', 'Connor', 'jofi8721@colorado.edu', '8abij'),
 (762839654, 'Callahan', 'Jack', 'joca8923@colorado.edu', '83viDsz'),
 (682018567, 'Seoung', 'Max', 'sema3516@colorado.edu', 'favAsd');
 
