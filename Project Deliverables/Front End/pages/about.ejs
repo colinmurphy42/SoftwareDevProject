@@ -1,0 +1,56 @@
+<!--Author: Thadeus Labuszewski 
+  This is the about page where users can understand the motive behind our website.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>About</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <% include ../partials/header.ejs %>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">TA/CA Locator</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="/">My Schedule</a></li>
+      <li class="active"><a href="/about">About</a></li>
+
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="/signup"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="container2">
+    <div class = "text">
+      <h1>About</h1>
+      <p>The TA/CA locator was created by a team of 6 computer science students at the University of Colorado Boulder for the class:
+        CSCI 3308-Software Development Methods & Tools. In an effort to assist other students in seeking reliable assistance, we came up
+        with the idea for a website that connects TA's and students.
+
+      </p>
+      <p>The TA/CA locator makes it easy to find help in the Computer Science department at The University of Colorado Boulder. We match your
+        availability with all of your TA's/CA's schedules so that you will never miss another important office hour. If you have not had the
+        opportunity to sign up yet please click the Sign Up button so that we can get started creating a personalized schedule for you.
+      </p>
+
+      <p>The frontend was written in HTML, CSS, and JavaScript. The backend was written in MySQL and NodeJS. In order to deploy the website, we used Heroku.
+      </p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
