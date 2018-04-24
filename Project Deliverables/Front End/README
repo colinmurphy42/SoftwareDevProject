@@ -1,1 +1,4 @@
-This folder contains all of the code for our project.
+This folder contains all of the front end code for our project. In the pages folder you can find the html for every page of 
+the TA/CA Locator website. The main.css file contains all the styling for the website and the procfile is used to serve
+it on Heroku. 
+
